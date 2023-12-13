@@ -1,0 +1,8 @@
+file_format: "1"
+id: choc44
+name: Choc44
+type: shield
+url: https://github.com/dktpham/choc44
+requires: [pro_micro]
+features:
+  - keys
