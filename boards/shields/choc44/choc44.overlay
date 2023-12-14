@@ -24,15 +24,6 @@
         >;
     };
 
-    encoder: encoder {
-        compatible = "alps,ec11";
-        a-gpios = <&pro_micro 2 GPIO_ACTIVE_HIGH>;
-        b-gpios = <&pro_micro 3 GPIO_ACTIVE_HIGH>;
-        resolution = <4>;
-        status = "okay";
-    };
-
-
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -56,5 +47,19 @@
             , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
+    };
+
+    encoder: encoder {
+        compatible = "alps,ec11";
+        a-gpios = <&pro_micro 2 GPIO_ACTIVE_HIGH>;
+        b-gpios = <&pro_micro 3 GPIO_ACTIVE_HIGH>;
+        resolution = <4>;
+        status = "okay";
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder>;
+        triggers-per-rotation = <20>;
     };
 };
