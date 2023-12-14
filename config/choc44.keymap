@@ -28,50 +28,50 @@
 
         ae_umlaut {
             bindings = <&kp RA(Q)>;
-            key-positions = <25 26>;
+            key-positions = <13 14>;
             layers = <0>;
             timeout-ms = <30>;
         };
 
         szet {
             bindings = <&kp RA(S)>;
-            key-positions = <26 27>;
+            key-positions = <14 15>;
             timeout-ms = <30>;
         };
 
         ue_umlaut {
             bindings = <&kp RA(Y)>;
-            key-positions = <19 20>;
+            key-positions = <7 8>;
             timeout-ms = <30>;
         };
 
         oe_umlaut {
             bindings = <&kp RA(P)>;
-            key-positions = <21 22>;
+            key-positions = <9 10>;
             timeout-ms = <30>;
         };
 
         f13 {
             bindings = <&kp F13>;
-            key-positions = <13 14>;
+            key-positions = <2 1>;
             timeout-ms = <30>;
         };
 
         f14 {
             bindings = <&kp F14>;
-            key-positions = <14 15>;
+            key-positions = <3 2>;
             timeout-ms = <30>;
         };
 
         f15 {
             bindings = <&kp F15>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
             timeout-ms = <30>;
         };
 
         f16 {
             bindings = <&kp F16>;
-            key-positions = <16 17>;
+            key-positions = <4 5>;
             timeout-ms = <30>;
         };
 
