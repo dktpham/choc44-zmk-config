@@ -132,10 +132,10 @@
             //               | GUI | ALT  | CTRL | LOWER|                   | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC    &kp Q  &kp W                       &kp E                  &kp R                     &kp T          &kp Y        &kp U                      &kp I                       &kp O                        &kp P     &kp BSPC
-&kp TAB    &kp A  &homerow_mods LEFT_SHIFT S  &homerow_mods LCTRL D  &homerow_mods LEFT_ALT F  &kp G          &kp H        &homerow_mods RIGHT_ALT J  &homerow_mods LCTRL K       &homerow_mods RIGHT_SHIFT L  &kp SEMI  &sqt_spc
-&kp LSHFT  &kp Z  &kp X                       &kp C                  &kp V                     &kp B          &kp N        &kp M                      &kp COMMA                   &kp DOT                      &kp FSLH  &kp RSHFT
-                  &kp LGUI                    &kp LALT               &kp LCTRL                 &lt 1 ENTER    &lt 2 SPACE  &hkp_sk RCTRL LCTRL        &hkp_sk RIGHT_ALT LEFT_ALT  &kp RGUI
+&kp ESC    &kp Q  &kp W                       &kp E                  &kp R                     &kp T                       &kp Y                     &kp U                     &kp I                       &kp O                        &kp P     &kp BSPC
+&kp TAB    &kp A  &homerow_mods LEFT_SHIFT S  &homerow_mods LCTRL D  &homerow_mods LEFT_ALT F  &homerow_mods LEFT_GUI G    &homerow_mods LEFT_GUI H  &homerow_mods LEFT_ALT J  &homerow_mods LCTRL K       &homerow_mods RIGHT_SHIFT L  &kp SEMI  &sqt_spc
+&kp LSHFT  &kp Z  &kp X                       &kp C                  &kp V                     &kp B                       &kp N                     &kp M                     &kp COMMA                   &kp DOT                      &kp FSLH  &kp RSHFT
+                  &kp LGUI                    &kp LALT               &kp LCTRL                 &lt 1 ENTER                 &lt 2 SPACE               &hkp_sk RCTRL LCTRL       &hkp_sk RIGHT_ALT LEFT_ALT  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
